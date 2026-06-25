@@ -1,0 +1,33 @@
+seed: 42
+workers: 20
+ 
+K: 8192
+max_element: 95536
+m: 0.999
+n: 6
+c: 4
+T: 0.5
+p: 0.3
+lam: 0.8
+alpha: 0.2
+kd_alpha: 0.05
+kd_temperature: 3
+learning_rate: 0.0003
+num_genes: 2000
+latent_feature: [1024, 512, 128]
+
+epochs: 30
+start_epoch: 1
+teacher_epochs: 20
+distiller_epochs: 30
+classnum: 8
+batch_size: 128
+resolution: 0.3
+
+reload: False
+flag: aug_nn_with_att
+model_path: ./model/Pancreas
+data_type: h5ad
+dataset_name: Pancreas
+root_dir: ./data/datasets
+gene_sets_path: ./data/gene_sets/human_function3
