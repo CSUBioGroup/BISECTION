@@ -1,5 +1,4 @@
-﻿from .backbone import ProjectionHeader, Prunable_Encoder, Prunable_Linear
-from .mlp import Encoder, KnowledgeEncoder, KnowledgeLinear, KnowledgeStudent, KnowledgeTeacher, Student
+from .mlp import Encoder, KnowledgeEncoder, KnowledgeLinear, KnowledgeStudent
 from .moco import DistillerLoss, MoCo
 
 __all__ = [
@@ -8,10 +7,5 @@ __all__ = [
     "KnowledgeEncoder",
     "KnowledgeLinear",
     "KnowledgeStudent",
-    "KnowledgeTeacher",
     "MoCo",
-    "ProjectionHeader",
-    "Prunable_Encoder",
-    "Prunable_Linear",
-    "Student",
 ]
