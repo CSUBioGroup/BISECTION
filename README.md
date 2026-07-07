@@ -1,4 +1,4 @@
-﻿# BISECITON
+﻿# BISECTION
 
 BISECTION is a unified, biologically informed deep learning framework designed for accurate unsupervised clustering and multi-scale biological interpretation of both single-cell RNA sequencing (scRNA-seq) and spatial transcriptomics (ST) data. Unlike traditional methods that focus solely on latent representation optimization while leaving downstream interpretation decoupled and post-hoc, BISECTION introduces an innovative architecture that harmonizes robust feature learning with intrinsic biological accountability. By coupling an attention-enhanced multi-neighbor contrastive learning module with a knowledge-guided teacher-student distillation network, the framework seamlessly maps statistical mathematical embeddings onto transparent, curated gene-set pathways. Consequently, BISECTION delivers competitive or superior clustering assignments while simultaneously providing highly accurate, trusted type and functional annotations at both the discrete cluster and single-cell/spot resolution.
 
@@ -53,4 +53,4 @@ The recommended entry point is the notebook:
 examples/Pancreas.ipynb
 ```
 
-Open the repository root as the working directory, start Jupyter or VS Code, and run the notebook from top to bottom. The first notebook cell automatically resolves the project root when opened from `examples/`.
+Open the repository root as the working directory, start Jupyter or VS Code, and run the notebook from top to bottom. The first notebook cell automatically resolves the project root when opened from `examples/`. Additional code used in the downstream analysis will be publicly released in a future update.
